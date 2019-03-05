@@ -35,8 +35,7 @@
     sudo rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 
 使用ELRepo库安装4.9.0内核： 
-    
-    sudo yum --enablerepo = elrepo-kernel安装kernel-ml -y
+    sudo yum --enablerepo=elrepo-kernel install -y kernel-ml
 
 确认结果:
 
